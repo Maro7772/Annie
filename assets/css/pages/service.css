@@ -1,0 +1,21 @@
+.service {
+  padding-block-start: calc(var(--section-padding) + 60px);
+}
+.service-list {
+  display: grid;
+  gap: 25px;
+}
+.card-title {
+  margin-block-end: 10px;
+}
+.card i {
+  font-size: 3.2rem;
+}
+.card .body-sm {
+  color: var(--jet);
+}
+@media (min-width: 768px) {
+  .service-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
